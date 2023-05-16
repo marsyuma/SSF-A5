@@ -35,7 +35,7 @@ LDS R19, ADCH ;get high-byte result from ADCH
 ;-----------------------------------------------------------------
 ;
 CPI R19, 1 ;compare r19 dengan nilai 1
-BRGE first ;jika >= maka branch ke sub-routine first
+BRLO first ;jika >= maka branch ke sub-routine first
 CPI R19, 3 ;compare r19 dengan nilai 3
 BRLO second ;jika < maka branch ke sub-routine second
 
@@ -45,9 +45,9 @@ BRLO two ;jika < branchke sub-routine one
 RJMP one ;jika tidak branch ke sub-routine one
 
 second:
-CPI R18, 64 ;compare r18 dengan nilai 127
+CPI R18, 240 ;compare r18 dengan nilai 127
 BRLO five ;jika < branchke sub-routine five
-CPI R18, 127 ;compare r18 dengan nilai 127
+CPI R18, 255 ;compare r18 dengan nilai 127
 BRLO four ;jika < branchke sub-routine four
 RJMP three ; jika > maka branch three
 
