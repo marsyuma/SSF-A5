@@ -53,7 +53,7 @@ Kami menyadari penurunan kualitas dari LDR yang seolah-olah semakin kurang sensi
 Inkonsistensi hasil antara skematik di aplikasi proteus dan rangkaian fisik juga menjadi salah satu hambatan kami atau dengan kata lain meskipun komponen dan kode yang digunakan telah sama, hasil keluaran yang didapatkan kadang kali tidak konsisten antara proteus dengan rangkaian fisiknya. Kami menduga kecakapan komponen yang digunakan menjadi penyebab di balik timbulnya ketidakkonsistenan masalah ini 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### v.Conclusion and future work
+### v. Conclusion and future work
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Kesimpulan dalam proyek akhir kami adalah, rangkaian kami bisa berjalan dengan baik, namun dengan catatan, terdapat inkonsistensi dari sensitifitas LDR dan terdapat juga perbedaan antara rangkaian fisik dengan rangkaian skematik dalam proteus. Untuk proyek berikutnya, kami ingin menggunakan hardware yang lebih akurat, sehingga menghasilkan produk yang lebih baik dari yang kami rancang sekarang
